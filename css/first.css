@@ -1,0 +1,90 @@
+*{
+    margin: auto;
+    padding: 0%;
+    
+}
+.heading{
+    display: flex;
+}
+.navlist{
+    width: 68%;
+}
+.search{
+    
+    text-align: right;
+    margin: 10px;
+}
+.navlist{
+    display: flex;
+    text-align: center;
+}
+.navlist li{
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+}
+.navlist img{
+    width: 63px;
+    margin: 7px;
+    border: 3px solid white;
+    border-radius: 35px;
+}
+.navlist li{
+    margin: auto;
+}
+.navlist li a:hover{
+    color: green;
+}
+.search{
+    margin: auto;
+}
+.hr{
+    padding: 20px;
+}
+.backgrounds{
+    background: rgba(0, 0, 0, 0.7) url('../img/garena-free-fire-hackers-1-900x506.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bodys{
+    color: white;
+    
+}
+.bodys{
+    padding: 259px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+}
+#account{
+    width: 82%;
+    padding: 7px;
+    
+}
+#password{
+    width: 82%;
+    margin-top: 25px;
+    padding: 7px;
+}
+.img{
+    background-image: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg);
+}
+.hii{
+    margin-top: 11px;
+    padding: 4px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 658px) {
+    .hnav{
+        height: 34px;
+    }
+    
+}
